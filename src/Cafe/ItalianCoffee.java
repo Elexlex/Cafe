@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ItalianCoffee extends CreateCoffee {
-    List<String> itCoffee = new ArrayList();
+    List<String> itCoffee = new ArrayList<>();
     public void createCoffee(int coffeeType){
         new CreateItalianCoffee(coffeeType);
     }

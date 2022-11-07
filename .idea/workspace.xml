@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38842733-a680-4149-8e91-f04d7d145086" name="Changes" comment="Lab 7.1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cafe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cafe/AmericanCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cafe/CreateCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cafe/FrenchCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cafe/ItalianCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cafe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cafe/AmericanCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/AmericanCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cafe/FrenchCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/FrenchCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cafe/ItalianCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/ItalianCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cafe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +51,22 @@
       <workItem from="1666430065071" duration="3858000" />
       <workItem from="1666439459812" duration="14764000" />
       <workItem from="1666605265456" duration="1679000" />
-      <workItem from="1666616402223" duration="363000" />
+      <workItem from="1666616402223" duration="1037000" />
+      <workItem from="1666620921268" duration="25000" />
+      <workItem from="1666622278651" duration="5956000" />
+      <workItem from="1667040443916" duration="62000" />
+      <workItem from="1667318222748" duration="119000" />
+      <workItem from="1667598479711" duration="142000" />
+      <workItem from="1667816359531" duration="2525000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab 7.1">
+      <created>1666616989416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666616989416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AmericanCoffee extends CreateCoffee {
-    List<String> amCoffee = new ArrayList();
+    List<String> amCoffee = new ArrayList<>();
     public void createCoffee(int coffeeType){
         new CreateAmericanCoffee(coffeeType);
     }

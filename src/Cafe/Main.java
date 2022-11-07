@@ -15,10 +15,11 @@ public class Main {
         if (menu == 2)
             System.out.println("Then what the hell are you doing here? Go away!");
         else
-            buyingCoffee(menu);
+            buyingCoffee();
     }
-    private static void buyingCoffee(int menu){
+    private static void buyingCoffee(){
         Scanner num = new Scanner(System.in);
+        int menu;
         System.out.print("Okay, here is the list: ");
         CreateCoffee[] create = {new AmericanCoffee(), new ItalianCoffee(), new FrenchCoffee()};
         for (int r = 0; r<3; r++) {
@@ -78,17 +79,9 @@ public class Main {
                 menu = num.nextInt();
             } while (menu>2||menu<1);
             if (menu == 1){
-                System.out.println("\nWhich one?");
-                System.out.println("1. " + list.get(2 + (6 * type)));
-                System.out.println("2. " + list.get(3 + (6 * type)));
-                System.out.println("3. " + list.get(4 + (6 * type)));
-                System.out.println("4. " + list.get(5 + (6 * type)));
-                do{
-                    menu = num.nextInt();
-                } while (menu>4||menu<1);
-                String line = list.get(menu+1 + (6 * type));
-                System.out.print("\nSo you bought an italian " + list.get(6 * type) + " with a " + line + " flavor");
+                String line = choosingExtra(type, list);
                 price += 1;
+                System.out.print("\nSo you bought an italian " + list.get(6 * type) + " with a " + line + " flavor");
             }
             else
                 System.out.print("\nSo you bought an italian " + list.get(6 * type));
@@ -100,15 +93,7 @@ public class Main {
                 menu = num.nextInt();
             } while (menu>2||menu<1);
             if (menu == 1){
-                System.out.println("\nWhich one?");
-                System.out.println("1. " + list.get(2 + (6 * type)));
-                System.out.println("2. " + list.get(3 + (6 * type)));
-                System.out.println("3. " + list.get(4 + (6 * type)));
-                System.out.println("4. " + list.get(5 + (6 * type)));
-                do{
-                    menu = num.nextInt();
-                } while (menu>4||menu<1);
-                String line = list.get(menu+1 + (6 * type));
+                String line = choosingExtra(type, list);
                 price += 2;
                 System.out.print("\nSo you bought a french " + list.get(6 * type) + " with a " + line + " bagel");
             }
@@ -116,5 +101,18 @@ public class Main {
                 System.out.print("\nSo you bought a french " + list.get(6 * type));
         }
         System.out.printf("\nIt will cost you %.2f$\nGoodbye", price);
+    }
+    private static String choosingExtra(int type, List<String> list){
+        Scanner num = new Scanner(System.in);
+        int menu;
+            System.out.println("\nWhich one?");
+            System.out.println("1. " + list.get(2 + (6 * type)));
+            System.out.println("2. " + list.get(3 + (6 * type)));
+            System.out.println("3. " + list.get(4 + (6 * type)));
+            System.out.println("4. " + list.get(5 + (6 * type)));
+            do{
+                menu = num.nextInt();
+            } while (menu>4||menu<1);
+            return list.get(menu+1 + (6 * type));
     }
 }
